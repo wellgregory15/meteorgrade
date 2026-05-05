@@ -1,0 +1,18 @@
+    // 5. Beta Feedback
+        collection(db, "betaFeedback"),
+      collection(db, "betaFeedbackNotes"),
+                { id: "feedback", icon: Bug, label: "Beta", hasIndicator: feedback.some(f => f.status === 'new') },
+                    Beta Feedback Terminal
+                        const feedbackRef = query(collection(db, "betaFeedback"), orderBy("timestamp", "desc"), limit(100));
+                              console.log(`[BETA_FEEDBACK] Triggering delete for feedback ID: ${selectedFeedback.id}`);
+                                console.log(`[BETA_FEEDBACK] Deleting/Archiving associated notes...`);
+                                const notesQuery = query(collection(db, "betaFeedbackNotes"), where("feedbackId", "==", selectedFeedback.id));
+                                    await deleteDoc(doc(db, "betaFeedbackNotes", noteDoc.id));
+                                    await updateDoc(doc(db, "betaFeedbackNotes", noteDoc.id), { status: 'archived' });
+                                console.log(`[BETA_FEEDBACK] Deleting main feedback record...`);
+                                  await deleteDoc(doc(db, "betaFeedback", selectedFeedback.id));
+                                  await updateDoc(doc(db, "betaFeedback", selectedFeedback.id), { status: 'archived' });
+                                console.log(`[BETA_FEEDBACK] Delete complete. Updating UI.`);
+                                            await deleteDoc(doc(db, "betaFeedbackNotes", note.id));
+                                        await addDoc(collection(db, "betaFeedbackNotes"), {
+                                      await updateDoc(doc(db, "betaFeedback", selectedFeedback.id), { 

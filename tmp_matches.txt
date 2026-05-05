@@ -1,0 +1,41 @@
+558:                <div className="theme-bg-secondary border theme-border p-6 theme-shadow">
+573:                <div className="theme-bg-secondary border theme-border p-6 theme-shadow">
+588:                <div className="theme-bg-secondary border theme-border p-6 theme-shadow">
+603:                <div className="theme-bg-secondary border theme-border p-6 theme-shadow">
+668:                <div className="lg:col-span-4 theme-bg-secondary border theme-border p-8 theme-shadow space-y-6">
+712:                           className="w-full theme-bg-secondary border theme-border p-2 text-xs outline-none focus:border-indigo-500 font-mono theme-text-primary"
+718:                           className="w-full theme-bg-secondary border theme-border p-2 text-xs outline-none focus:border-indigo-500 font-mono resize-none theme-text-primary"
+745:                className="theme-bg-secondary border theme-border flex flex-col h-full overflow-hidden theme-shadow"
+758:                      className="w-full theme-bg-primary border theme-border py-2 pl-10 pr-4 text-sm outline-none focus:border-indigo-600 focus:theme-bg-secondary transition-all theme-text-primary"
+904:                        className="theme-bg-secondary border theme-border shadow-2xl w-full max-w-md overflow-hidden"
+1023:                                    className="flex-1 py-2 text-[10px] font-bold uppercase tracking-widest theme-bg-secondary border border-red-200 theme-text-muted hover:theme-bg-primary transition-all font-mono"
+1073:                <div className="flex flex-col theme-bg-secondary border theme-border h-full overflow-hidden shadow-sm">
+1092:                            : "theme-bg-secondary theme-border hover:theme-bg-primary"
+1118:                  className={`theme-bg-secondary border theme-border shadow-sm flex flex-col items-center justify-center p-6 lg:p-12 text-center overflow-auto ${!selectedForecast ? "hidden lg:flex" : "flex"}`}
+1159:                            <div className="p-2 theme-bg-secondary border theme-border flex flex-col items-center">
+1168:                            <div className="p-2 theme-bg-secondary border theme-border flex flex-col items-center">
+1177:                            <div className="p-2 theme-bg-secondary border theme-border flex flex-col items-center">
+1189:                            <div className="p-2 theme-bg-secondary border theme-border flex flex-col items-center">
+1201:                            <div className="p-2 theme-bg-secondary border theme-border flex flex-col items-center">
+1210:                            <div className="p-2 theme-bg-secondary border theme-border flex flex-col items-center">
+1222:                            <div className="p-2 theme-bg-secondary border theme-border flex flex-col items-center">
+1231:                            <div className="p-2 theme-bg-secondary border theme-border flex flex-col items-center">
+1240:                            <div className="p-2 theme-bg-secondary border theme-border flex flex-col items-center">
+1257:                            <div className="p-3 theme-bg-secondary border theme-border">
+1267:                            <div className="p-3 theme-bg-secondary border theme-border">
+1355:                <div className="theme-bg-secondary border theme-border p-8 shadow-sm">
+1420:                              : "theme-bg-secondary theme-text-muted theme-border hover:theme-bg-primary"
+1437:                <div className="theme-bg-secondary border theme-border p-8 shadow-sm flex flex-col overflow-hidden">
+1505:                  className={`w-full lg:w-1/3 flex flex-col theme-bg-secondary border theme-border overflow-hidden shadow-sm ${selectedTicket ? "hidden lg:flex" : "flex"}`}
+1512:                    <div className="flex theme-bg-secondary border theme-border p-0.5 rounded">
+1546:                              : "theme-bg-secondary theme-border hover:theme-bg-primary"
+1583:                  className={`flex-1 theme-bg-secondary border theme-border shadow-sm overflow-y-auto relative flex flex-col ${!selectedTicket ? "hidden lg:flex" : "flex"}`}
+1646:                            className="theme-bg-secondary border border-slate-300 text-sm px-3 py-2 outline-none focus:border-indigo-600"
+1738:                className="theme-bg-secondary border theme-border flex flex-col h-full min-h-[900px] overflow-hidden shadow-sm relative"
+1772:                        <div className="theme-bg-secondary border theme-border divide-y divide-slate-100">
+1836:                      className="absolute inset-0 z-50 theme-bg-secondary flex flex-col"
+1913:                            <div className="theme-bg-secondary border theme-border p-8 shadow-sm">
+1936:                                      className="p-6 theme-bg-secondary border theme-border shadow-sm group relative"
+1969:                              <div className="theme-bg-secondary p-8 border-2 border-dashed theme-border rounded-xl">
+2025:                            <div className="theme-bg-secondary border theme-border p-6 space-y-6 shadow-sm">
+2062:                            <div className="theme-bg-secondary border theme-border p-6 space-y-6 shadow-sm">

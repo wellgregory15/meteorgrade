@@ -1,0 +1,5 @@
+{
+  "name": "METEORGRADE",
+  "description": "The elite AI-powered weather forecasting hub. Compete against global precision standards and earn your rank.",
+  "requestFramePermissions": ["geolocation"]
+}
